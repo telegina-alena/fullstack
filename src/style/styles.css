@@ -1,0 +1,160 @@
+:root {
+  --dark-primary: #2a254b;
+  --primary: #4e4d93;
+  --light-gray: #f9f9f9;
+  --border-gray: #ebe8f4;
+  --white: #ffffff;
+  --border-dark: #cac6da;
+}
+
+body {
+  font-family: "Courier New", Courier, monospace;
+  color: var(--dark-primary);
+}
+
+.main {
+  max-width: 1700px;
+  padding: 0 auto;
+  margin: 0 auto;
+}
+
+/* Хэдер */
+.header {
+  display: flex;
+}
+
+.header h1 {
+  margin: 0 auto;
+}
+
+/* Навигация */
+.nav {
+  display: flex;
+  justify-content: center;
+}
+
+.nav__item {
+  list-style: none;
+  display: inline-flex;
+  padding: 15px;
+}
+
+.nav__item a {
+  text-decoration: none;
+}
+
+.nav__item:hover {
+  background-color: #f0f0f0;
+  transform: translateY(-1px);
+  border-radius: 1rem;
+  list-style: none;
+}
+
+/* Фурнитура */
+.furniture {
+  display: flex;
+}
+
+.furniture section {
+  background-color: var(--dark-primary);
+  color: var(--white);
+}
+
+.furniture p {
+  padding: 20px;
+  display: flex;
+  align-items: flex-end;
+}
+
+.furniture button {
+  background-color: var(--primary);
+  color: var(--light-gray);
+}
+
+/* Различия */
+.different-info{
+}
+
+.different {
+  display: flex;
+}
+
+.different__card {
+  padding: 100px;
+  flex-wrap: wrap;
+}
+
+/* Керамика */
+.ceramics {
+  display: flex;
+}
+
+.ceramics__card {
+  padding: 20px;
+}
+
+/* Популярные продукты */
+
+.popular_products {
+  display: flex;
+}
+
+.popular_products__card {
+  padding: 20px;
+}
+
+/* Присоединение */
+.join {
+  padding: 50px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: var(--light-gray);
+}
+
+.join__card {
+  background: var(--white);
+  padding: 50px;
+  align-items: center;
+}
+
+/* Кнопка для регистрации */
+.sign-up {
+  display: flex;
+}
+
+.sign-up button {
+  background-color: var(--dark-primary);
+  color: var(--light-gray);
+}
+
+/* Кнопка для показа коллекции */
+.view-collection {
+  background-color: var(--light-gray);
+  color: var(--dark-primary);
+}
+
+/* Футер */
+.footer {
+  background-color: var(--dark-primary);
+  color: var(--white);
+
+}
+.menu {
+  padding: 20px;
+}
+
+.menu li {
+  list-style: none;
+}
+
+.menu a {
+  text-decoration: none;
+  color: var(--white);
+}
+
+.footer__footer{
+  display: flex;
+  justify-content: center;
+}
